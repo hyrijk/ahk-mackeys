@@ -29,8 +29,6 @@ $^p::Send {Up}
 $^a::Send {Home}
 $^e::Send {End}
 
-; Select
-
 ; Edit
 
 $^k::Send +{End}{Delete}
