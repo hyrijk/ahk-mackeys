@@ -65,6 +65,12 @@ $#!+w:: Send ^+q
 $#w:: Send ^w
 $#s::Send ^s
 
+; VSCode
+
+$#p::Send ^p
+$#+p::Send ^+p
+$#j::Send ^j
+
 ; Edit
 
 $#z::Send ^z
@@ -98,7 +104,7 @@ $#^Left::Send #{Left}
 $#^Right::Send #{Right}
 $#^Up::Send #{Up}
 $#^Down::Send #{Down}
-$^Space::Send #q
+$#Space::Send #q
 
 ; Screen Shots
 
