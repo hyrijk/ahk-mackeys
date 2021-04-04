@@ -31,13 +31,6 @@ $^e::Send {End}
 
 ; Select
 
-$^+f::Send +{Right}
-$^+b::Send +{Left}
-$^+n::Send +{Down}
-$^+p::Send +{Up}
-$^+a::Send +{Home}
-$^+e::Send +{End}
-
 ; Edit
 
 $^k::Send +{End}{Delete}
@@ -71,6 +64,7 @@ $#p::Send ^p
 $#+p::Send ^+p
 $#j::Send ^j
 $#+j::Send ^+j
+$#+a::Send ^+a
 
 ; Edit
 
