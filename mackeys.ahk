@@ -18,31 +18,6 @@ SetDisableLockWorkstationRegKeyValue(value)
   RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Policies\System, DisableLockWorkstation, %value%
 }
 
-
-
-; --- Mouse ---
-
-; Scroll Acceleration
-
-$WheelDown::
-if (A_TimeSincePriorHotkey > 15)
-{
-  Send {WheelUp}
-  return
-}
-Send {WheelUp 10}
-return
-$WheelUp::
-if (A_TimeSincePriorHotkey > 15)
-{
-  Send {WheelDown}
-  return
-}
-Send {WheelDown 10}
-return
-
-
-
 ; --- Emacs ---
 
 ; Move
