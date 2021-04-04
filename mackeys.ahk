@@ -65,11 +65,12 @@ $#!+w:: Send ^+q
 $#w:: Send ^w
 $#s::Send ^s
 
-; VSCode
+; VSCode & Chrome
 
 $#p::Send ^p
 $#+p::Send ^+p
 $#j::Send ^j
+$#+j::Send ^+j
 
 ; Edit
 
